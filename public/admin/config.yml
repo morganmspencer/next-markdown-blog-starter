@@ -92,6 +92,9 @@ collections:
       - name: 'title'
         label: 'Name'
         widget: 'string'
+      - name: 'thumbnail'
+        label: 'Profile Image'
+        widget: 'image'
       - name: 'twitter'
         required: false
         label: 'Twitter Handle'
