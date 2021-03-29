@@ -44,6 +44,9 @@ collections:
         search_fields: ['title', 'slug']
         value_field: '{{slug}}'
         display_fields: ['title', 'slug']
+      - name: 'thumbnail'
+        label: 'Featured Image'
+        widget: 'image'
       - name: 'excerpt'
         label: 'Excerpt'
         widget: 'text'

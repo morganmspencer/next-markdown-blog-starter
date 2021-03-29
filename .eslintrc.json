@@ -87,7 +87,6 @@
     "semi": [ "warn", "never" ],
     "max-len": [ "warn", {"code": 80}],
     "no-empty-function": "off",
-    "camelcase": "off",
     "no-use-before-define": "off"
   }
 }
