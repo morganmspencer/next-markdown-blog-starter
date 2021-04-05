@@ -61,6 +61,7 @@ const createProjectTasks = ({ newAppDir }) => {
         }
         fs.copySync(templateDir, newAppDir)
         rimraf.sync(`${newAppDir}/packages`)
+        rimraf.sync(`${newAppDir}/.github`)
       },
     },
   ]
